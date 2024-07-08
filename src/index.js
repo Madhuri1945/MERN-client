@@ -15,8 +15,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <div>
   <Router>
+    
     <Navbar/>
     <Routes>
+   
     <Route path="/register" element={<Register/>} />
     <Route path="/login" element={<Login/>} />
     <Route path="/register" element={<h1>Logout</h1>} />
